@@ -6,6 +6,9 @@ import javax.inject.Named;
 @Named
 @RequestScoped
 public class HelloWorld {
+	
+	public HelloWorld() {
+	}
 
 	private String message;
 	
